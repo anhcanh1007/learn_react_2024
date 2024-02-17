@@ -29,7 +29,7 @@ function App() {
 
   var elements = users.map((user, index) => {
     return (
-      <div key={user.id}>
+      <div key={}>
         <h1>Tên: {user.name}</h1>
         <h1>Tên: {user.age}</h1>
       </div>

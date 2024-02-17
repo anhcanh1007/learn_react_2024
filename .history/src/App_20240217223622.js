@@ -12,29 +12,26 @@ function App() {
   var users = [
     {
       id: 1,
-      name: "Anh",
-      age: 22,
+      name: 'Anh',
+      age: 22
     },
     {
       id: 2,
-      name: "Chi",
-      age: 18,
+      name: 'Chi',
+      age: 18
     },
     {
       id: 3,
-      name: "Chau",
-      age: 19,
+      name: 'Chau',
+      age: 19
     },
-  ];
+  ]
 
   var elements = users.map((user, index) => {
-    return (
-      <div key={user.id}>
-        <h1>Tên: {user.name}</h1>
-        <h1>Tên: {user.age}</h1>
-      </div>
-    );
-  });
+    return <div>
+      <h1></h1>
+    </div>
+  })
 
   function showProduct(product) {
     if (product.status) {
@@ -52,7 +49,6 @@ function App() {
       <h1>{a}</h1>
       <h2>{name}</h2>
       {showProduct(product)}
-      {elements}
     </div>
   );
 }
