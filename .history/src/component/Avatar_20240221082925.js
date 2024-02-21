@@ -1,0 +1,3 @@
+func
+
+export default Avatar;

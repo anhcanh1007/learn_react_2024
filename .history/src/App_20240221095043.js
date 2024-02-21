@@ -5,7 +5,7 @@ import Computer from "./component/Computer";
 import Product from "./component/Product";
 
 function App() {
-  function Profile({ person, job = "dev" }) {
+  function Profile({ person, job }) {
     return (
       <div>
         <h1>{person}</h1>
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Product />
-      <Profile person="anh canh" />
+      <Profile person="anh canh" job="developer" />
       <Avatar person={{ name: "test", age: 20 }} job="developer" />
       <Computer name="asus vivobook" id="2" weight="200g" height="100cm" />
     </div>

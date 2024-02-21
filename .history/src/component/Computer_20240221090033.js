@@ -1,0 +1,6 @@
+function Computer()
+{
+
+}
+
+ex
