@@ -1,7 +1,7 @@
 import "./App.css";
 import Product from "./Product";
 
-function App() {
+function App(props) {
   let products = [
     {
       id: 1,
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {products.map((product, index) => {
-        return <Product name={product.name} price={product.price} />;
+        return <Product {} />;
       })}
     </div>
   );

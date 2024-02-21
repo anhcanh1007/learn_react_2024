@@ -22,9 +22,8 @@ function App() {
 
   return (
     <div className="App">
-      {products.map((product, index) => {
-        return <Product name={product.name} price={product.price} />;
-      })}
+    
+      <Product />
     </div>
   );
 }

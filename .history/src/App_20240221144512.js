@@ -19,12 +19,18 @@ function App() {
       price: 1800000,
     },
   ];
-
+  let elements = products.map((product, index) => {
+    return (
+      <div key={product.id}>
+        <h1>{product.name}</h1>
+        <h1>{product.price}</h1>
+        <button onClick={buyProduct}>Mua ngay</button>
+      </div>
+    );
+  });
   return (
     <div className="App">
-      {products.map((product, index) => {
-        return <Product name={product.name} price={product.price} />;
-      })}
+      <Product  />
     </div>
   );
 }

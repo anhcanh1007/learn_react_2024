@@ -1,7 +1,7 @@
 import "./App.css";
 import Product from "./Product";
 
-function App() {
+function App(props) {
   let products = [
     {
       id: 1,
