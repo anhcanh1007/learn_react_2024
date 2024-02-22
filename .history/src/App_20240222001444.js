@@ -2,20 +2,15 @@ import { useRef } from "react";
 import "./App.css";
 
 function App() {
-  let ref = useRef(0);
+  let ref = useRef();
   const addRef = () => {
     ref.current = ref.current + 1;
     alert("you click: " + ref.current);
   };
   return (
     <div className="App">
-      {/* <input ref="name" type="text" className="text-base p-2" /> */}
-      <button
-        className="bg-slate-600 px-2 py-4 text-white rounded-lg"
-        onClick={addRef}
-      >
-        Lưu
-      </button>
+      <input ref="name" type="text" className="text-base p-2" />
+      <button onClick={addRef}>Lưu</button>
     </div>
   );
 }
