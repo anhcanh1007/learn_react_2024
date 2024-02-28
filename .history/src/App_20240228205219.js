@@ -1,9 +1,9 @@
 import "./App.css";
-import Toggle from "./state/Toggle";
+import {Toogle} from './state'
 function App() {
   return (
     <div className="App">
-      <Toggle />
+      <Toggle></Toggle>
     </div>
   );
 }
