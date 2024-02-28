@@ -12,7 +12,6 @@ function App() {
             <h1>{item.username}</h1>
             <h1>{item.email || "anhcanh@gmail.com"}</h1>
             <h1>{item.address.street}</h1>
-            <h3>{newClass}</h3>
           </div>
         );
       })}
