@@ -25,7 +25,7 @@ const Game = () => {
     // setXIsNext((xIsNext) => !xIsNext);
   };
   const handleResetGame = () => {
-    setState({ board: Array(9).fill(null) });
+    setState(Array(9).fill(null));
   };
   return (
     <div>

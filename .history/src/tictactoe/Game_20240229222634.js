@@ -18,14 +18,13 @@ const Game = () => {
     boardCoppy[index] = state.xIsNext ? "X" : "o";
     setState({
       ...state,
-      board: boardCoppy,
-      xIsNext: !state.xIsNext,
-    });
+      
+    })
     // setBoard(boardCoppy);
     // setXIsNext((xIsNext) => !xIsNext);
   };
   const handleResetGame = () => {
-    setState({ board: Array(9).fill(null) });
+    setBoard(Array(9).fill(null));
   };
   return (
     <div>

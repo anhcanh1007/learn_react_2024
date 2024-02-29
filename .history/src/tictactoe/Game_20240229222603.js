@@ -6,7 +6,7 @@ import { calculateWinner } from "../helper";
 const Game = () => {
   // const [board, setBoard] = useState(Array(9).fill(null));
   // const [xIsNext, setXIsNext] = useState(true);
-  const [state, setState] = useState({
+  const [state, useState] = useState({
     board: Array(9).fill(null),
     xIsNext: true,
     name: "anhcanhdev",
@@ -16,16 +16,12 @@ const Game = () => {
     const boardCoppy = [...state.board]; //cú pháp lấy hết phần tử của một mảng
     if (winner || boardCoppy[index]) return;
     boardCoppy[index] = state.xIsNext ? "X" : "o";
-    setState({
-      ...state,
-      board: boardCoppy,
-      xIsNext: !state.xIsNext,
-    });
+    
     // setBoard(boardCoppy);
     // setXIsNext((xIsNext) => !xIsNext);
   };
   const handleResetGame = () => {
-    setState({ board: Array(9).fill(null) });
+    setBoard(Array(9).fill(null));
   };
   return (
     <div>
