@@ -5,12 +5,7 @@ const Board = (props) => {
   return (
     <div className="game-board">
       {props.cells.map((item, index) => (
-        <Cell
-          key={index}
-          className={item === "X" ? "is-x" : item === "O" ? "is-o" : ""}
-          value={item}
-          onClick={() => props.onClick(index)}
-        />
+        <Cell key={index} className={item === 'x'} </Cell>} value={item} onClick={() => props.onClick(index)} />
       ))}
     </div>
   );

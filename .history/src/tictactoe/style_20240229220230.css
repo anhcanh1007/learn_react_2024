@@ -14,13 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: bold;
-    box-shadow: rgba(149,1557,165, 0.2) 0px 8px 24px;
-}
-.game-cell.is-x {
-    color: #F62682;
-}
-.game-cell.is-o{
-    color: #FF6651;
+    box-shadow: ;
 }

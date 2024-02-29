@@ -10,7 +10,7 @@ import React from "react";
 // const { name, age } = student; => cách viết nhanh của object destructuring
 const Cell = ({ value, onClick, className }) => {
   return (
-    <div className={`game-cell ${className}`} onClick={onClick}>
+    <div className={} onClick={onClick}>
       {value}
     </div>
   );

@@ -8,9 +8,9 @@ import React from "react";
 // const name = student.name;
 // const age = student.age;
 // const { name, age } = student; => cách viết nhanh của object destructuring
-const Cell = ({ value, onClick, className }) => {
+const Cell = ({ value, onClick, cl }) => {
   return (
-    <div className={`game-cell ${className}`} onClick={onClick}>
+    <div className="game-cell" onClick={onClick}>
       {value}
     </div>
   );
