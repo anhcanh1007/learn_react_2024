@@ -4,8 +4,8 @@ import Button from "./button/Button";
 function App() {
   return (
     <div className="App">
-      <Button>Primary</Button>
-      <Button className="button-secondary">Secondary</Button>
+      <Button className=''>Primary</Button>
+      <Button>Secondary</Button>
     </div>
   );
 }

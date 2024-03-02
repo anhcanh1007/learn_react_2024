@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Button>Primary</Button>
-      <Button className="button-secondary">Secondary</Button>
+      <Button className={}>Secondary</Button>
     </div>
   );
 }
