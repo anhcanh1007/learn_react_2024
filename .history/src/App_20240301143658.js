@@ -53,7 +53,7 @@ function App() {
         </button>
       </div>
 
-      <div className="todo">
+      <div>
         <TodoList />
       </div>
     </div>

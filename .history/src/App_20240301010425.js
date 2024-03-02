@@ -1,6 +1,5 @@
 import { useReducer } from "react";
 import "./App.css";
-import TodoList from "./usereducer/TodoList";
 
 // useReducer
 // 1. init state -> khởi tạo giá trị ban đầu cho state
@@ -51,10 +50,6 @@ function App() {
         >
           Down
         </button>
-      </div>
-
-      <div className="todo">
-        <TodoList />
       </div>
     </div>
   );

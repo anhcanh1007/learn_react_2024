@@ -1,6 +1,5 @@
 import { useReducer } from "react";
 import "./App.css";
-import TodoList from "./usereducer/TodoList";
 
 // useReducer
 // 1. init state -> khởi tạo giá trị ban đầu cho state
@@ -30,34 +29,8 @@ const reducer = (state, action) => {
 // dispatch
 
 function App() {
-  const [state, dispatch] = useReducer(reducer, initState);
-  return (
-    <div className="App">
-      <div>
-        <h1>{state}</h1>
-      </div>
-      <div>
-        <button
-          onClick={() => {
-            dispatch(UP_ACTION);
-          }}
-        >
-          Up
-        </button>
-        <button
-          onClick={() => {
-            dispatch(DOWN_ACTION);
-          }}
-        >
-          Down
-        </button>
-      </div>
-
-      <div className="todo">
-        <TodoList />
-      </div>
-    </div>
-  );
+  const [state, dispatch] = useReducer()
+  return <div className="App"></div>;
 }
 
 export default App;

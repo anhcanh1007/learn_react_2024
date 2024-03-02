@@ -1,6 +1,5 @@
 import { useReducer } from "react";
 import "./App.css";
-import TodoList from "./usereducer/TodoList";
 
 // useReducer
 // 1. init state -> khởi tạo giá trị ban đầu cho state
@@ -26,7 +25,7 @@ const reducer = (state, action) => {
       throw new Error("invalid action");
   }
 };
-
+linh chi 
 // dispatch
 
 function App() {
@@ -51,10 +50,6 @@ function App() {
         >
           Down
         </button>
-      </div>
-
-      <div className="todo">
-        <TodoList />
       </div>
     </div>
   );
