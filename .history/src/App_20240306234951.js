@@ -1,6 +1,5 @@
 import "./App.css";
-// import PhotosPage from "./photo/PhotosPage";
-import Toggle from "./photo/Toggle";
+import PhotosPage from "./photo/PhotosPage";
 // import Photos from "./photo/Photos";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       {/* <Photos /> */}
       {/* <PhotosPage /> */}
-      <Toggle />
+      
     </div>
   );
 }

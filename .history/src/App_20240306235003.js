@@ -1,5 +1,5 @@
 import "./App.css";
-// import PhotosPage from "./photo/PhotosPage";
+import PhotosPage from "./photo/PhotosPage";
 import Toggle from "./photo/Toggle";
 // import Photos from "./photo/Photos";
 
